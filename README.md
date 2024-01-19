@@ -72,7 +72,7 @@ Our application's functionality hinges significantly on user-based operations. C
 
 ### Cat Routes
 
-Out cat routes follow a pretty standard setup - however, each cat route is protected and requires an access token.
+Our cat routes follow a pretty standard setup - however, each cat route is protected and requires an access token.
 
 #### Cat Index
 
