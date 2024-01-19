@@ -109,6 +109,11 @@ class FeedingListCreate(generics.ListCreateAPIView):
     cat_id = self.kwargs['cat_id']
     return Feeding.objects.filter(cat_id=cat_id)
 
+  def perform_create(self, serializer):
+    cat_id = self.kwargs['cat_id']
+    cat = Cat.objects.get(id=cat_id)
+    serializer.save(cat=cat)
+
 class FeedingDetail(generics.RetrieveUpdateDestroyAPIView):
   serializer_class = FeedingSerializer
   lookup_field = 'id'
