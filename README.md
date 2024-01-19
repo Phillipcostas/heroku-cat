@@ -66,7 +66,7 @@ Our application's functionality hinges significantly on user-based operations. C
 
 - HTTP Method: GET
 - Endpoint: /users/token/refresh/
-- Authentication header with active access token required 
+- Authorization header with active access token required 
 
 ![User Verification](./postman_requests/user_verification.png)
 
@@ -78,7 +78,7 @@ Out cat routes follow a pretty standard setup - however, each cat route is prote
 
 - HTTP Method: GET
 - Endpoint: /cats/
-- Authentication header with active access token required
+- Authorization header with active access token required
 
 ![Cat List](./postman_requests/get_cats.png)
 
@@ -86,7 +86,7 @@ Out cat routes follow a pretty standard setup - however, each cat route is prote
 
 - HTTP Method: GET
 - Endpoint: /cats/1/
-- Authentication header with active access token required
+- Authorization header with active access token required
 
 ![Cat Detail](./postman_requests/get_cat.png)
 
@@ -94,7 +94,7 @@ Out cat routes follow a pretty standard setup - however, each cat route is prote
 
 - HTTP Method: POST
 - Endpoint: /cats/
-- Authentication header with active access token required
+- Authorization header with active access token required
 - Request Body Requirements:
   - name
   - breed
@@ -107,7 +107,7 @@ Out cat routes follow a pretty standard setup - however, each cat route is prote
 
 - HTTP Method: PUT
 - Endpoint: /cats/1/
-- Authentication header with active access token required
+- Authorization header with active access token required
 - Request Body Requirements:
   - name
   - breed
@@ -120,7 +120,7 @@ Out cat routes follow a pretty standard setup - however, each cat route is prote
 
 - HTTP Method: DELETE
 - Endpoint: /cats/1/
-- Authentication header with active access token required
+- Authorization header with active access token required
 
 ![Cat Delete](./postman_requests/delete_cat.png)
 
