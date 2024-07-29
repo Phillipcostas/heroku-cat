@@ -111,9 +111,9 @@ SIMPLE_JWT = {
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+    'default': 
         dj_database_url.config('DATABASE_URL')
-    }
+    
 }
 
 
