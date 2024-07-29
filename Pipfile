@@ -9,8 +9,13 @@ psycopg2-binary = "*"
 djangorestframework = "*"
 djangorestframework-simplejwt = "*"
 django-cors-headers = "*"
+django-environ = "*"
+dj-database-url = "*"
+django-heroku = "*"
+whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.12"
+python_version = "3.11"
